@@ -28,6 +28,7 @@ fun sockMerchant(n: Int, ar: Array<Int>): Int {
     return ar.groupingBy { it }
             .eachCount()
             .values
-            .fold(0) { acc, i -> acc + i / 2 }
+//            .fold(0) { acc, i -> acc + i / 2 }
+            .fold(0) { acc, i -> acc + (i shr 1) }
 }
 
