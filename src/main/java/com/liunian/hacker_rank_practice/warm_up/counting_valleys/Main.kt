@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.challenges.counting_valleys
+package com.liunian.hacker_rank_practice.warm_up.counting_valleys
 
 import java.util.*
 

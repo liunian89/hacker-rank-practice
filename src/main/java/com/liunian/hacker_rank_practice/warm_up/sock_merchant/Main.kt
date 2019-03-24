@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.challenges.sock_merchant
+package com.liunian.hacker_rank_practice.warm_up.sock_merchant
 
 import java.util.*
 

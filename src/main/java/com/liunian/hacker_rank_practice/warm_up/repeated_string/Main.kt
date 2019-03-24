@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.challenges.repeated_string
+package com.liunian.hacker_rank_practice.warm_up.repeated_string
 
 import java.util.*
 
