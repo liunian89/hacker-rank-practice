@@ -3,13 +3,7 @@ package com.liunian.hacker_rank_practice.challenges.sock_merchant
 import java.util.*
 
 /**
- * Complete the sockMerchant function in the editor below. It must return an integer representing the number of matching pairs of socks that are available.
- * sockMerchant has the following parameter(s):
- *  n: the number of socks in the pile
- *  ar: the colors of each sock
- *
  *  https://www.hackerrank.com/challenges/sock-merchant/problem
- *
  */
 fun main(args: Array<String>) {
     val scan = Scanner(System.`in`)
