@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.arrays.new_year_chaos
+package com.liunian.hacker_rank_practice.arrays.medium.new_year_chaos
 
 import java.util.*
 
@@ -9,11 +9,11 @@ class Cheating {
      */
     fun minimumBribes(finalState: Array<Int>): Unit {
         try {
-            val count = finalState.foldIndexed(0) { index: Int, total: Int, current: Int ->
-                if (current - 1 - index > 2) throw RuntimeException("cannot bribe more than 2 times")
-                val subTotal = IntRange(Math.max(current - 2, 0), index)
-                        .fold(0) { subTotal, frontIndex -> if (finalState[frontIndex] > current) subTotal + 1 else subTotal }
-                subTotal + total
+            val count = finalState.foldIndexed(0) { index: Int, count: Int, value: Int ->
+                if (value - 1 - index > 2) throw RuntimeException("cannot bribe more than 2 times")
+                val subCount = IntRange(Math.max(value - 2, 0), index)
+                        .fold(0) { subCount, subIndex -> if (finalState[subIndex] > value) subCount + 1 else subCount }
+                subCount + count
             }
 
             println(count)

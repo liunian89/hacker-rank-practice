@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.arrays.left_rotation
+package com.liunian.hacker_rank_practice.arrays.easy.left_rotation
 
 import java.util.*
 

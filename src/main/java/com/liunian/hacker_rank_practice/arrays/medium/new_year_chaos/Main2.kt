@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.arrays.new_year_chaos
+package com.liunian.hacker_rank_practice.arrays.medium.new_year_chaos
 
 import java.util.*
 

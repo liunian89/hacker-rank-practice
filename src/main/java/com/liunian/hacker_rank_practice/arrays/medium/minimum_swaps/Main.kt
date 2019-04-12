@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.arrays.minimum_swaps
+package com.liunian.hacker_rank_practice.arrays.medium.minimum_swaps
 
 import java.util.*
 import kotlin.math.absoluteValue
