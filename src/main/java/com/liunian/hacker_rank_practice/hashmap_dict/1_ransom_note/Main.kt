@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.hashmap_dict.ransom_note
+package com.liunian.hacker_rank_practice.hashmap_dict.`1_ransom_note`
 
 import java.util.*
 

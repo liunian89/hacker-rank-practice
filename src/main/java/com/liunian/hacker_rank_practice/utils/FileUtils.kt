@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice
+package com.liunian.hacker_rank_practice.utils
 
 import org.apache.commons.io.FileUtils
 import java.io.File

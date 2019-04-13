@@ -1,27 +1,20 @@
-package com.liunian.hacker_rank_practice.arrays.hard.array_manipulation
+package com.liunian.hacker_rank_practice.arrays.`3_array_manipulation`
 
 import java.util.*
 
-class MainMap {
+class MainStupid {
+
     // Complete the arrayManipulation function below.
     fun arrayManipulation(n: Int, queries: Array<Array<Int>>): Long {
         val scoreTable = mutableMapOf<Int, Long>()
         queries.forEach { row ->
-            scoreTable.compute(row[0]) { _, v -> (v ?: 0) + row[2] }
-            scoreTable.compute(row[1] + 1) { _, v -> (v ?: 0) - row[2] }
+            IntRange(row[0], row[1]).forEach {
+                scoreTable.compute(it) { _, v -> row[2] + (v ?: 0) }
+            }
         }
 
-        val array = Array(n) { 0L }
 
-        var max = 0L
-        IntRange(1, n).fold(0L) { acc, i ->
-            val new = acc + (scoreTable[i] ?: 0)
-            array[i - 1] = new
-            if (new > max) max = new
-            new
-        }
-
-        return max
+        return scoreTable.values.max()!!
     }
 
     fun main(args: Array<String>) {
