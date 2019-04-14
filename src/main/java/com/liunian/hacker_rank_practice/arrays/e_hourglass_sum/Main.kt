@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.arrays.`1_hourglass_sum`
+package com.liunian.hacker_rank_practice.arrays.e_hourglass_sum
 
 import java.util.*
 

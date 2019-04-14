@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.arrays.`1_dynamic_array`
+package com.liunian.hacker_rank_practice.arrays.e_dynamic_array
 
 // Complete the dynamicArray function below.
 fun dynamicArray(n: Int, queries: Array<Array<Int>>): Array<Int> {

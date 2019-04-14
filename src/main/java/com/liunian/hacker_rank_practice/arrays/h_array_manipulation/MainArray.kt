@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.arrays.`3_array_manipulation`
+package com.liunian.hacker_rank_practice.arrays.h_array_manipulation
 
 import java.util.*
 

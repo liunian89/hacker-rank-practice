@@ -1,4 +1,4 @@
-package com.liunian.hacker_rank_practice.arrays.`1_reverse_array`
+package com.liunian.hacker_rank_practice.arrays.e_reverse_array
 
 import java.util.*
 

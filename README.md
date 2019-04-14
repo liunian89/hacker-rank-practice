@@ -2,8 +2,8 @@
 
 Difficulty ranks
 
-1: easy
+e: easy
 
-2: medium
+m: medium
 
-3: hard
+h: hard
